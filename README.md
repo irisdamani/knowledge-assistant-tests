@@ -52,6 +52,33 @@ npm run test:ui
 npm run test:report
 ```
 
+### Run by file
+
+```bash
+npx playwright test src/tests/api/documents.spec.ts
+npx playwright test src/tests/api/query.spec.ts
+npx playwright test src/tests/api/validation.spec.ts
+npx playwright test src/tests/ui/assistant.spec.ts
+```
+
+### Run by test title
+
+Use `--grep` with a string or regex to match test names:
+
+```bash
+# Run all tests whose title contains "lifecycle"
+npx playwright test --grep "lifecycle"
+
+# Run a specific golden question by ID
+npx playwright test --grep "GQ-001"
+
+# Run all citation chip tests
+npx playwright test --grep "\[ui\]\[citation\]"
+
+# Run all doc-panel tests
+npx playwright test --grep "\[ui\]\[doc-panel\]"
+```
+
 ### Output
 
 | Format | Location | Purpose |
