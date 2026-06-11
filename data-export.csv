@@ -1,0 +1,10 @@
+doc_id,title,region,audience,lifecycle_state,supersedes,last_updated,summary
+D-001,Travel and Expense Policy (Americas),Americas,All Staff,Approved,,2026-01-10,Americas meal allowance USD 75/day; receipts above USD 25
+D-002,Travel and Expense Policy (EMEA),EMEA,All Staff,Approved,,2026-01-10,EMEA meal allowance EUR 60/day; receipts above EUR 30
+D-003,Travel and Expense Policy (APAC),APAC,All Staff,In Review,,2026-02-01,Proposed APAC meal allowance JPY 8000/day (under review)
+D-004,Remote Work Policy,Global,All Staff,Approved,D-005,2026-01-05,Up to 3 remote days/week with manager approval
+D-005,Remote Work Policy (2023 edition),Global,All Staff,Retired,,2023-03-01,Up to 1 remote day/week (superseded by D-004)
+D-006,Production Data Handling Standard,Global,Engineering,Approved,,2025-11-20,No local copies of production data; use approved sandbox
+D-007,Compensation Review Process,Global,Managers,Approved,,2025-12-15,Q1 cycle; manager discretion budget 4% of team payroll
+D-008,Procurement Approval Thresholds,Global,Finance,Approved,,2025-10-30,Above USD 10k VP sign-off; above USD 50k CFO sign-off
+D-009,Vendor Onboarding Checklist (EMEA),EMEA,Managers,Draft,,2026-02-20,Draft EMEA vendor onboarding checklist (not approved)

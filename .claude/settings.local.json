@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -X POST https://main-knowledge-assistant.newpage.workers.dev/query -H 'Content-Type: application/json' -H 'X-User-Region: APAC' -H 'X-User-Role: Employee' -d '{\"question\": \"What is my daily meal allowance when I travel?\"}')",
+      "Bash(python3 -m json.tool)",
+      "Bash(curl -s -X POST https://main-knowledge-assistant.newpage.workers.dev/query -H 'Content-Type: application/json' -H 'X-User-Region: EMEA' -H 'X-User-Role: Employee' -d '{\"question\": \"What is my daily meal allowance?\"}')",
+      "Bash(rm -f /Users/irisdamani/Downloads/candidate-pack/src/types/index.ts)",
+      "Bash(rmdir /Users/irisdamani/Downloads/candidate-pack/src/types)",
+      "Bash(npx playwright:*)"
+    ]
+  }
+}
